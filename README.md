@@ -16,3 +16,12 @@ python是3.8
 還有pre-trained model的下載連結 https://drive.google.com/drive/folders/1QEbdEn-DO-23hYCLgaB3f4vP8e8L8iIp?usp=sharing
 
 環境安裝好後即可python document_classification.py執行程式
+
+模型訓練流程:
+1. Dataset: 網路下載
+
+2. 特徵萃取: Word2Vec
+
+3. 特徵選擇: 卷積神經網路(CNN)
+
+4. 分類氣: 3-Layers Fully Connect
